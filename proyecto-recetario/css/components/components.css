@@ -1,0 +1,298 @@
+.topnav{
+    height: 7.563rem;
+    width: auto;
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-medium);
+    background: var(--color-pink);
+}
+
+/* Bootstrap 4 text input with search icon */
+.input-group-item{
+    position: relative;
+    flex: inherit;
+    width: 1%;
+    min-width: 52.813rem;
+}
+
+.margin-content{
+    margin-left: 12rem;
+    margin-right: -14rem;
+}
+
+.margin-right{
+    margin-right: 9.688rem;
+}
+
+.margin-left{
+    margin-left: 9.688rem;
+}
+
+.margin-carousel{
+    margin-right: 3.688rem;
+}
+
+.search-button-height{ 
+    height: 3.25rem !important;
+}
+
+.border-pink{
+    border-color: var(--color-pink);
+    background: transparent;
+}
+
+.separation-line{
+    border-top: 0.5rem solid var(--color-pink);
+}
+
+/* Fondo imagenes*/
+.badge{
+    width: 18.938rem;
+    height: 3.625rem;
+    border-radius: 1rem;
+    padding: 0.625rem 1.25rem;
+    font-size: var(--fs-large);
+}
+
+.input-size{
+    width: 31.25rem;
+    height: 3.063rem;
+}
+
+.badge-lg{
+    width: 22.25rem;
+}
+
+.badge-xlg{
+    width: 35.813rem;
+}
+
+.badge-pink{
+    font-weight: var(--fw-regular);
+    background: var(--color-pink);
+}
+
+.background-block{
+    background: var(--color-pink-100);
+    border-radius: 1rem;
+}
+
+.topnav-link{
+    color: var(--clr-white);
+    opacity: 1;
+}
+
+.topnav-link:hover{
+    color: var(--clr-white);
+    opacity: 0.5;
+}
+
+/*Flechas*/
+.circular-nav{
+    width: 4.75rem;
+    height: 3.75rem;
+    border-radius: 1rem;
+    border-color: var(--color-pink);
+    background: var(--clr-white);
+}
+
+.circular-nav:hover{
+    background: var(--color-pink-100);
+}
+
+.rotate-over{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* Buttons */
+.btn-circular{
+    display: inline-flex;
+    height: 3.625rem;
+    width: 21.813rem;
+    border-radius: 1rem;
+    border-style: solid;
+    font-size: var(--fs-medium-large);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    color: var(--color-pink);
+    background: var(--clr-white);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btn-circular-client{
+    height: 3.714rem;
+    width: 14.813rem ;
+}
+
+.btn-large{
+    height: 3.714rem;
+    width: 21.75rem ;
+}
+
+.btn-circular:hover{
+    color: var(--color-white);
+    border-color: var(--color-pink-200);
+    background: var(--color-pink);
+}
+
+/*text area */
+
+.textarea-width{
+    width: 46.75rem;
+}
+
+.offcanvas-header{
+    display: none;
+}
+
+/*Galaxy Tab S4*/
+@media (max-width: 890px){
+
+    .br-mv {
+        zoom: 150%;
+    }
+
+    .main-carousel-mb{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container-searcher-mv {
+        width: 38rem;
+    }
+
+    .searcher-mv {
+        width: 100%;
+        min-width: 0;
+    }
+    
+    .bar-mb{
+        width: 100%;
+        background: transparent;
+    }
+    
+    .icon-mb{
+        width: 5%;
+    }
+
+    .offcanvas-header{
+        display: block;
+    }
+    
+    .offcanvas-mb{
+        display: block;
+        position: fixed;
+        top: 0;
+        left:0;
+        width:80%;
+        height: 100%;
+        background: var(--color-pink);
+        z-index: 1; 
+        overflow-y: scroll;
+        overflow-x: hidden;
+        transform:translateX(-100%);
+        transition: transform .6s ease-in-out;
+    }
+
+    .show-mb-nav{
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .margin-left-mb{
+        margin-left: 10rem !important;
+    }
+
+    .margin-left-mb2{
+        margin-left: 20rem !important;
+    }
+
+    .margin-content{
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+
+    .margin-text{
+        margin-left: 3rem !important;
+        margin-right: 0;
+    }
+
+    .position-tab{
+        position: relative !important;
+    }
+
+}
+
+/*IPad Air 2*/
+@media (max-width: 769px){
+
+    .br-mv {
+        zoom: 120%;
+    }
+
+    .container-searcher-mv {
+        width: 41rem;
+    }
+ 
+    .margin-left-mb{
+        margin-left: 11rem !important;
+    }
+
+    .margin-left-mb2{
+        margin-left: 21.5rem !important;
+    }
+
+}
+
+/*IPhone 11*/
+@media (max-width: 500px){
+
+   .br-mv{
+        zoom: 0%;
+   }
+
+    .container-searcher-mv {
+        width: 26rem;
+    }
+
+    .margin-left-mb{
+        margin-left: 14rem !important;
+    }
+
+    .mb-icons{
+        margin-left: 3rem;
+        text-align: center;
+    }
+
+    .infobox-mb{
+        margin-right: 0;
+        margin-left: 0; 
+    }
+
+    .left-mb{
+        margin-left: 8rem;
+    }
+
+}
+
+/*Samsung Galaxy S9 +*/
+@media (max-width: 413px){
+    
+    .br-mv {
+        zoom: 0%;
+    }
+
+     .container-searcher-mv {
+        width: 23rem;
+    }
+
+    .offcanvas-mb{
+        width:90%;
+    }
+
+    .margin-left-mb{
+        margin-left: 12.5rem !important;
+    }
+
+}

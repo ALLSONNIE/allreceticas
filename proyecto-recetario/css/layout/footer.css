@@ -1,0 +1,58 @@
+.footer-no-item{
+    list-style-type: none;
+}
+
+.footer-text{  
+    display: inline-block;  
+    text-decoration: none;
+    font-size: var( --fs-regular);
+    color: var(--color-black);
+   
+}
+
+.footer-text:hover{
+    opacity: 85%;
+    color: var(--color-pink);
+    transform: scale(1.2);
+}
+
+/*Samsung */
+@media (max-width: 890px){ 
+    .center-mb{
+        text-align: center;
+    }
+
+    .hide-tab{
+        display: none;
+    }
+
+    .p-5-mb{
+        padding: 0 !important;
+    }
+
+    .mt-5-mb{
+        margin-top: 0 !important;
+    }
+
+    .mt-mb{
+        margin-top: 2rem;
+    }
+}
+
+/*IPAD AIR 2*/
+@media (min-width: 767px) and (max-width: 769px){ 
+  
+}
+
+/*IPhone 11*/
+@media (max-width: 500px){ 
+
+    .hide-mb{
+        display: none;
+    }
+}
+
+/*Samsung Galaxy S9 +*/
+@media (max-width: 413px){ 
+
+}

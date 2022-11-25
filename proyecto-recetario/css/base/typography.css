@@ -1,0 +1,35 @@
+.titles{
+    font-size: var(--fs-large);
+}
+
+.text-pink{
+    color: var(--color-pink);
+}
+
+.text-dark{
+    color: var( --color-black);
+}
+
+.text-light{
+    color: var(--color-white);
+}
+
+.title-regular{
+    font-size: var( --fs-regular);
+    font-weight: var(--fw-regular);
+}
+
+.title-medium{
+    font-size: var(--fs-medium);
+    font-weight: var(--fw-bold);
+}
+
+.title-medium-large{
+    font-size: var(--fs-medium-large);
+    font-weight: var(--fw-bold);
+}
+
+.title-large{
+    font-size: var(--fs-large);
+    font-weight: var(--fw-bold);
+}

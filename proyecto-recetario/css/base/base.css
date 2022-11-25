@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: var(--base-fs);
+}
+
+body{
+    font-family: var(--ff-primary);
+    background: var(--color-white);
+    color: var(--color-pink); 
+}

@@ -1,0 +1,24 @@
+:root{
+
+  --base-fs: 15px;
+  
+  /*Font and weight*/  
+  --ff-primary: "Oswald";
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Font sizes */
+  --fs-regular: 1.393rem; /* parte footer negro */
+  --fs-medium: 1.618rem; /* parte footer rosa */
+  --fs-medium-large: 1.692rem; /* información */
+  --fs-large: 2.285rem; /* titulos*/
+
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  
+  --color-pink: hsl( 355, 77%, 59%);
+  --color-pink-100: hsl( 355, 77%, 80%);
+  --color-pink-200: hsl( 355, 65%, 45%);
+
+}
